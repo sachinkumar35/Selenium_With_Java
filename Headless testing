@@ -1,0 +1,11 @@
+Problem Statement: 
+
+During the execution of automation regression, the UI testing browser requires a significant amount of time, restricting the user from accessing other applications or performing additional tasks. Any attempts to open other applications or perform tasks during this period may result in the failure of the execution process.
+
+Root Cause: 
+
+UI testing browser in automation regression hinders multitasking, causing test failures upon attempting to interact with other tasks or applications.
+
+Ideas to solve the issue: 
+
+One possible solution to mitigate this problem is to run the automation regression tests in a headless mode, which eliminates the need for a visible UI testing browser. This allows the user to freely access other applications and perform tasks while the tests are running in the background. Additionally, optimizing the test scripts and reducing the test scope can help decrease the overall execution time, enabling better multitasking capabilities.
